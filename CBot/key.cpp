@@ -33,7 +33,7 @@ int Key::getCode() {
     return m_keyCode;
 }
 
-void Key::setName(char f){
+void Key::setName(const char &f){
     m_keyName = f;
 }
 
